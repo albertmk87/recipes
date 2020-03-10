@@ -1,0 +1,24 @@
+
+textarea {
+	display: block;
+}
+
+.insertEl {
+	padding: 20px;
+}
+
+.insertEl >* {
+	margin: 20px;
+}
+
+
+.ingr {
+	}
+
+.checkbox-inline {
+	display: inline;
+}
+
+button {
+	display: block;
+}

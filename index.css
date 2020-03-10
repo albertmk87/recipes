@@ -1,0 +1,58 @@
+* {
+		margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background-color: #2B292E;
+}
+
+.top {
+	background-color: #6F439C;
+	text-align: center;
+	padding: 40px 0;
+	color:white;
+}
+
+.content {
+	text-align: center;
+}
+
+.content input {
+	padding: 10px;
+	margin-top: 20px;
+}
+.content p {
+	color:white;
+	margin-top:20px;
+	font-size: 2rem;
+}
+
+.content button {
+	margin-top:20px;
+	padding: 10px;
+	background-color:#6F439C;
+	border:none; 
+	color:white;
+}
+
+.recipes {
+	text-align: center;
+	color: white;
+	font-size: 1.4rem;
+	margin-top: 30px;
+}
+
+a {
+	display: block;
+	color:white;
+}
+
+textarea {
+	display: block;
+}
+
+#insertEl {
+	padding: 20px;
+}
