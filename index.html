@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Recipes</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Recipe App</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="icon">
 </head>
+
 <body>
-	<div class="container">
-		
-		<div class="top">
-			<h1>The Recipe App</h1>
-			<p>What recipe do you want to save today</p>
-		</div>
-		<div class="content">
-				<input id="searchRecipes" type="text" placeholder="Search" name="">
-				<p>You currently have <span class="numRecipes">0</span> recipes stored in your list</p>
-				<form>
-					<input id="addRecipe" type="text" placeholder="add a recipe" name="recipe">
-					<button id="addBtn">Submit</button>
-				</form>
-				
-		</div>
-			<div class="recipes">
+    <div class="header">
+        <div class="container">
+                <a href="./"><h1 class="header header__title">The Recipe App</h1></a>
+            <h2 class="header__subtitle">What recipe do you want to save today?</h2>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="actions__container" id="search-bar-div">
+            <input type="text" class="input" id="search-bar" placeholder="Search">
+        </div>
+    </div>
+    <div class="container">
+        <div id="recipes-div">
 
-			</div>
-	</div>
-
-
-<script type="text/javascript" src="uuid.js"></script>
-
-<script type="text/javascript" src="index.js"></script>
-
-<script type="text/javascript" src="edit.js"></script>
+        </div>
+        <div>
+            <button id="add-recipe-button" class="button">Add Recipe</button>
+        </div>
+    </div>
+    <script src="./scripts/uuid.js"></script>
+ 
+    <script src="./scripts/app.js"></script>
+       <script src="./scripts/recipe-functions.js"></script>
 </body>
+
 </html>
